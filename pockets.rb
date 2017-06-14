@@ -1,4 +1,10 @@
+require 'dotenv'
+Dotenv.load
+require 'httparty'
+require 'oauth'
+require 'sinatra'
+
 require 'sinatra'
 get '/' do
-  'Hello World'
+  erb :index
 end
