@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    autoprefixer-rails (7.1.1.2)
+      execjs
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
+    execjs (2.7.0)
+    httparty (0.15.5)
+      multi_xml (>= 0.5.2)
+    multi_xml (0.6.0)
+    mustermann (1.0.0)
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    sass (3.4.24)
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    tilt (2.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap
+  httparty
+  sinatra
+
+BUNDLED WITH
+   1.14.6
